@@ -1,5 +1,5 @@
 
-def compare_rows(row_1, row_2) -> int | None:
+def compare_rows(row_1, row_2) -> int:
     if not isinstance(row_1, str) or not isinstance(row_2, str):
         return 0
     if row_1 == row_2:
